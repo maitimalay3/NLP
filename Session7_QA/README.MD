@@ -2,7 +2,7 @@
 
 ## Objective
 
-- Refer to the file we wrote in the [class](https://colab.research.google.com/drive/1zge6bHjZFB-2Sa7MZy4GGqmiJ-5n66GH#scrollTo=ZiWuwQyD8SGt)
+- MyCode  [class](https://colab.research.google.com/drive/1zge6bHjZFB-2Sa7MZy4GGqmiJ-5n66GH#scrollTo=ZiWuwQyD8SGt)
 
 ONLY use datasetSentences.txt. (no augmentation required)
 Your dataset must have around 12k examples.
