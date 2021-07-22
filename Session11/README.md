@@ -29,7 +29,6 @@
 5.  LSTM's output will be sent to a FC layer to predict one of the output_language words 
 
 ### Attention Mechanism
- ## For first time 
 1. concat these three tensor 1. Decoder embedding word (SOS token), 2. hidden state (last hidden state of encoder) 3. cell state (last cell state of encoder)
 2. Use the above conatinated data set and pass it though a fully connected layer and then normalize it using softmax to to get the normalized attention weights
 3. This attention weight will be used to weigh the encoder_outputs using batch matric multiplication and get new representation of encoder state
