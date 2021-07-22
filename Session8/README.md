@@ -9,8 +9,8 @@
 
 ## Solution
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/pankaj90382/END-1.0/blob/main/S8/2%20-%20Learning%20Phrase%20Representations%20using%20RNN%20Encoder-Decoder%20for%20Statistical%20Machine%20Translation.ipynb)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/pankaj90382/END-1.0/blob/main/S8/3%20-%20Neural%20Machine%20Translation%20by%20Jointly%20Learning%20to%20Align%20and%20Translate.ipynb)
+[![Open In Colab](https://drive.google.com/file/d/1Dnu0RqhFLYO8fW_ndVZI7IHXOinQ8N2F/view?usp=sharing)
+[![Open In Colab](https://drive.google.com/file/d/1codVuImy0ZGQ8SJA_JYasvTvW-gGBDbW/view?usp=sharing)
 
 ### Refactoring
 
@@ -122,56 +122,5 @@ The existing code has written in the torchtext legacy set. The code has refactor
   test_dataloader = DataLoader(to_map_style_dataset(test_iter), shuffle=True, batch_size=BATCH_SIZE, num_workers=2, pin_memory=True, collate_fn=collate_fn)
    ```
 
-### Logs
-
-```
-  Epoch: 01 | Time: 0m 37s
-   Train Loss: 5.042 | Train PPL: 154.706
-    Val. Loss: 4.995 |  Val. PPL: 147.617
-  Epoch: 02 | Time: 0m 38s
-   Train Loss: 4.370 | Train PPL:  79.051
-    Val. Loss: 4.794 |  Val. PPL: 120.789
-  Epoch: 03 | Time: 0m 38s
-   Train Loss: 4.042 | Train PPL:  56.935
-    Val. Loss: 4.524 |  Val. PPL:  92.220
-  Epoch: 04 | Time: 0m 39s
-   Train Loss: 3.715 | Train PPL:  41.069
-    Val. Loss: 4.313 |  Val. PPL:  74.630
-  Epoch: 05 | Time: 0m 38s
-   Train Loss: 3.415 | Train PPL:  30.430
-    Val. Loss: 4.085 |  Val. PPL:  59.464
-  Epoch: 06 | Time: 0m 39s
-   Train Loss: 3.136 | Train PPL:  23.013
-    Val. Loss: 3.891 |  Val. PPL:  48.973
-  Epoch: 07 | Time: 0m 39s
-   Train Loss: 2.873 | Train PPL:  17.688
-    Val. Loss: 3.810 |  Val. PPL:  45.130
-  Epoch: 08 | Time: 0m 39s
-   Train Loss: 2.629 | Train PPL:  13.855
-    Val. Loss: 3.726 |  Val. PPL:  41.526
-  Epoch: 09 | Time: 0m 39s
-   Train Loss: 2.399 | Train PPL:  11.017
-    Val. Loss: 3.643 |  Val. PPL:  38.194
-  Epoch: 10 | Time: 0m 39s
-   Train Loss: 2.177 | Train PPL:   8.820
-    Val. Loss: 3.705 |  Val. PPL:  40.649
-```
-
-### Concepts
 
 
-| Colab Files| Modern | Class Notes | Torch Text Legacy|
-|-------|-----|-----|-----|
-| Seq2Seq   | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/pankaj90382/END-1.0/blob/main/S8/END2.0%20Seq2Seq%201%20Modern.ipynb)  |   | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/pankaj90382/END-1.0/blob/main/S8/torchtext%20legacy%20END2%20Seq2seq%20Class%20Code.ipynb) |
-| AGT News Classification  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/pankaj90382/END-1.0/blob/main/S8/torchtext%20AGT_News_Exercises.ipynb) |  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/pankaj90382/END-1.0/blob/main/S8/AGT_News_Classification_ClassLive.ipynb)|  |
-
-
-## Refrences
-
- - [Loss Function and Optimization](https://medium.com/data-science-group-iitr/loss-functions-and-optimization-algorithms-demystified-bb92daff331c)
- - [Torch Text Datasets](https://pytorch.org/text/stable/datasets.html#ag-news)
- - [Pytorch Seq2seq Dataset](https://github.com/bentrevett/pytorch-seq2seq)
- - [Pytorch Language Translation Tutorial](https://pytorch.org/tutorials/beginner/torchtext_translation_tutorial.html)
- - [Pytorch Sentiment Tutorial](https://pytorch.org/tutorials/beginner/text_sentiment_ngrams_tutorial.html)
- - [Pytorch Transformer Tutorial](https://pytorch.org/tutorials/beginner/transformer_tutorial.html)
- - [Pytorch Tutorials](https://pytorch.org/tutorials/)
